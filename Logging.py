@@ -20,6 +20,6 @@ def trace():
     print("\033[0m")
     print("\033[38;5;196m\033[1mEND STACK TRACE\033[0m\033[0m")
 
-def set_start_time(t):
+def set_start_time():
     global LOGGING_START_TIME
-    LOGGING_START_TIME = t
+    LOGGING_START_TIME = time.time()
